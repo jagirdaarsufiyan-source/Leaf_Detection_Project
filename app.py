@@ -1,3 +1,6 @@
+import os
+os.environ["YOLO_CONFIG_DIR"] = "/tmp"
+
 import streamlit as st
 from ultralytics import YOLO
 import cv2
